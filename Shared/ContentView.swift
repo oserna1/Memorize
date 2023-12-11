@@ -11,19 +11,29 @@ struct ContentView: View {
     @ObservedObject var viewModel: EmojiMemoryGame
     
     var body: some View {
-            ScrollView{
-                LazyVGrid(columns: [GridItem(.adaptive(minimum:widthThatBestFits(cardCount: viewModel.cards.count)))]) {
-                    ForEach(viewModel.cards) { card in
-                        CardView(card: card)
-                            .aspectRatio(2/3, contentMode: .fit)
-                            .onTapGesture {
-                                viewModel.choose(card)
-                            }
-                    }
-                }
+        VStack {
+            ScrollView {
+                cards
             }
-            .foregroundColor(.red)
-            .padding(.horizontal)
+            Button("Shuffle") {
+                viewModel.shuffle()
+            }
+        }
+        .padding()
+    }
+    
+    var cards: some View {
+        LazyVGrid (columns: [GridItem(.adaptive(minimum:widthThatBestFits(cardCount: viewModel.cards.count)))]) {
+            ForEach(viewModel.cards) { card in
+                CardView(card: card)
+                    .aspectRatio(2/3, contentMode: .fit)
+                    .onTapGesture {
+                        viewModel.choose(card)
+                    }
+            }
+        }
+        .foregroundColor(.red)
+        .padding(.horizontal)
     }
     
     func widthThatBestFits(cardCount: Int) -> CGFloat {
