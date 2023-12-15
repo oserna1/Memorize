@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             ScrollView {
-                cards
+                cards.animation(.default, value: viewModel.cards)
             }
             Button("Shuffle") {
                 viewModel.shuffle()
@@ -23,10 +23,11 @@ struct ContentView: View {
     }
     
     var cards: some View {
-        LazyVGrid (columns: [GridItem(.adaptive(minimum:widthThatBestFits(cardCount: viewModel.cards.count)))]) {
+        LazyVGrid (columns: [GridItem(.adaptive(minimum:widthThatBestFits(cardCount: viewModel.cards.count)), spacing: 0)]) {
             ForEach(viewModel.cards) { card in
                 CardView(card: card)
                     .aspectRatio(2/3, contentMode: .fit)
+                    .padding(4)
                     .onTapGesture {
                         viewModel.choose(card)
                     }
@@ -46,15 +47,20 @@ struct CardView: View {
     
     var body: some View {
         ZStack {
-            let shape = RoundedRectangle(cornerRadius: 20)
-            if card.isFaceUp {
-                shape.fill().foregroundColor(.white)
-                shape.strokeBorder(lineWidth: 3)
-                Text(card.content).font(.largeTitle)
-            } else if card.isMatched {
-                shape.opacity(0)
-            } else {
-                shape.fill()
+            let base = RoundedRectangle(cornerRadius: 12)
+            Group {
+                if card.isFaceUp {
+                    base.fill(.white)
+                    base.strokeBorder(lineWidth: 2)
+                    Text(card.content)
+                        .font(.system(size: 200))
+                        .minimumScaleFactor(0.01)
+                        .aspectRatio(contentMode: .fit)
+                } else if card.isMatched {
+                    base.opacity(0)
+                } else {
+                    base.fill()
+                }
             }
         }
     }
