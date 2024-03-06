@@ -15,8 +15,13 @@ struct ContentView: View {
             ScrollView {
                 cards.animation(.default, value: viewModel.cards)
             }
-            Button("Shuffle") {
-                viewModel.shuffle()
+            HStack {
+                Button("Shuffle") {
+                    viewModel.shuffle()
+                }
+                Button("New Game") {
+                    viewModel.newGame()
+                }
             }
         }
         .padding()

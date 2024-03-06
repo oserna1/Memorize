@@ -37,14 +37,15 @@ struct MemoryGame<CardContent> where CardContent: Equatable {
         print(cards)
     }
     
-    init(numverOfPairsOfCards: Int, createCardContent: (Int) -> CardContent) {
+    init(numberOfPairsOfCards: Int, createCardContent: (Int) -> CardContent) {
         cards = Array<Card>()
         // add numberOfPairsOfCards x 2 cards to cards array
-        for pairIndex in 0..<numverOfPairsOfCards {
+        for pairIndex in 0..<numberOfPairsOfCards {
             let content = createCardContent(pairIndex)
             cards.append(Card(content: content, id: "\(pairIndex+1)a"))
             cards.append(Card(content: content, id: "\(pairIndex+1)b"))
         }
+        cards.shuffle()
     }
     
     struct Card: Identifiable, Equatable, CustomDebugStringConvertible {
