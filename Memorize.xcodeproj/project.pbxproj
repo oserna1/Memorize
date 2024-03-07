@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0413EFE22B99612E00B0F2E5 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413EFE12B99612E00B0F2E5 /* Theme.swift */; };
+		0413EFE32B99612E00B0F2E5 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413EFE12B99612E00B0F2E5 /* Theme.swift */; };
 		046FCA8A279FB48600FE5776 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FCA7A279FB48500FE5776 /* MemorizeApp.swift */; };
 		046FCA8B279FB48600FE5776 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FCA7A279FB48500FE5776 /* MemorizeApp.swift */; };
 		046FCA8C279FB48600FE5776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FCA7B279FB48500FE5776 /* ContentView.swift */; };
@@ -20,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0413EFE12B99612E00B0F2E5 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		046FCA7A279FB48500FE5776 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
 		046FCA7B279FB48500FE5776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		046FCA7C279FB48600FE5776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,6 +67,7 @@
 				046FCA7B279FB48500FE5776 /* ContentView.swift */,
 				0489B9D827A7915300713726 /* MemoryGame.swift */,
 				0489B9DB27A7945B00713726 /* EmojiMemoryGame.swift */,
+				0413EFE12B99612E00B0F2E5 /* Theme.swift */,
 				046FCA7C279FB48600FE5776 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -186,6 +190,7 @@
 			files = (
 				0489B9D927A7915300713726 /* MemoryGame.swift in Sources */,
 				046FCA8C279FB48600FE5776 /* ContentView.swift in Sources */,
+				0413EFE22B99612E00B0F2E5 /* Theme.swift in Sources */,
 				046FCA8A279FB48600FE5776 /* MemorizeApp.swift in Sources */,
 				0489B9DC27A7945B00713726 /* EmojiMemoryGame.swift in Sources */,
 			);
@@ -197,6 +202,7 @@
 			files = (
 				0489B9DA27A7915300713726 /* MemoryGame.swift in Sources */,
 				046FCA8D279FB48600FE5776 /* ContentView.swift in Sources */,
+				0413EFE32B99612E00B0F2E5 /* Theme.swift in Sources */,
 				046FCA8B279FB48600FE5776 /* MemorizeApp.swift in Sources */,
 				0489B9DD27A7945B00713726 /* EmojiMemoryGame.swift in Sources */,
 			);
