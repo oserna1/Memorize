@@ -30,9 +30,19 @@ class EmojiMemoryGame: ObservableObject {
         return model.cards;
     }
     
-    var themeName: String {
-        return theme.currentTheme.name
+    var color: Color {
+        if let color = colors[theme.currentTheme.color] {
+            return color
+        } else {
+            return Color.blue
+        }
     }
+    
+    private let colors = [
+        "red": Color.red,
+        "blue": Color.blue,
+        "green": Color.green
+    ]
     
     // MARK: - Intent(s)
     
@@ -44,7 +54,12 @@ class EmojiMemoryGame: ObservableObject {
         model.choose(card)
     }
     
+    func chooseNewTheme() -> Theme.ThemeContent{
+        theme = Theme()
+        return theme.currentTheme
+    }
+    
     func newGame() {
-        model = EmojiMemoryGame.createMemoryGame(theme: Theme.chooseNewTheme());
+        model = EmojiMemoryGame.createMemoryGame(theme: chooseNewTheme());
     }
 }

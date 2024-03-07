@@ -38,7 +38,7 @@ struct ContentView: View {
                     }
             }
         }
-        .foregroundColor(Color.blue)
+        .foregroundColor(viewModel.color)
         .padding(.horizontal)
     }
     

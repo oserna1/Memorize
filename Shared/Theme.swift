@@ -26,7 +26,7 @@ struct Theme {
         var name: String
     }
     
-    static var possibleThemes: Set<ThemeContent> = [
+    private static var possibleThemes: Set<ThemeContent> = [
         ThemeContent(color: "red",pairOfCards: Int.random(in: 4..<8), emojis: Array<String>(arrayLiteral: "🅱️","🔴","🔺","🟥","💯","🉐","⛔️","❓"), name: "red" ),
         ThemeContent(color: "blue",pairOfCards: Int.random(in: 4..<8), emojis: Array<String>(arrayLiteral: "📘","📪","🩻","🧿","🛋️","💙","🌀","🏧"), name: "blue" ),
         ThemeContent(color: "green",pairOfCards: Int.random(in: 4..<8), emojis: Array<String>(arrayLiteral: "✅","💚","📗","🦠","🔫","📟","🔋","🧩"), name: "green" )
