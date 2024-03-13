@@ -19,6 +19,7 @@ struct ContentView: View {
                 Button("Shuffle") {
                     viewModel.shuffle()
                 }
+                Text("score: \(viewModel.score)")
                 Button("New Game") {
                     viewModel.newGame()
                 }

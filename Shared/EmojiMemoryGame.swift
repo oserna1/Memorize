@@ -27,7 +27,11 @@ class EmojiMemoryGame: ObservableObject {
     
     
     var cards: Array<MemoryGame<String>.Card> {
-        return model.cards;
+        return model.cards
+    }
+    
+    public var score: Int {
+        return model.score
     }
     
     var color: Color {
