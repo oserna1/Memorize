@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040A18672C338674007EFF6C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A18662C338674007EFF6C /* CardView.swift */; };
+		040A18682C338674007EFF6C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A18662C338674007EFF6C /* CardView.swift */; };
+		040A186A2C3388C0007EFF6C /* AspectVgrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A18692C3388C0007EFF6C /* AspectVgrid.swift */; };
+		040A186B2C3388C0007EFF6C /* AspectVgrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A18692C3388C0007EFF6C /* AspectVgrid.swift */; };
+		040A186D2C338E49007EFF6C /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A186C2C338E49007EFF6C /* Pie.swift */; };
+		040A186E2C338E49007EFF6C /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A186C2C338E49007EFF6C /* Pie.swift */; };
 		0413EFE22B99612E00B0F2E5 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413EFE12B99612E00B0F2E5 /* Theme.swift */; };
 		0413EFE32B99612E00B0F2E5 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413EFE12B99612E00B0F2E5 /* Theme.swift */; };
+		041F20622C3431DA00FC0311 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F20612C3431DA00FC0311 /* Cardify.swift */; };
+		041F20632C3431DA00FC0311 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F20612C3431DA00FC0311 /* Cardify.swift */; };
 		046FCA8A279FB48600FE5776 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FCA7A279FB48500FE5776 /* MemorizeApp.swift */; };
 		046FCA8B279FB48600FE5776 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FCA7A279FB48500FE5776 /* MemorizeApp.swift */; };
 		046FCA8C279FB48600FE5776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FCA7B279FB48500FE5776 /* ContentView.swift */; };
@@ -19,10 +27,16 @@
 		0489B9DA27A7915300713726 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489B9D827A7915300713726 /* MemoryGame.swift */; };
 		0489B9DC27A7945B00713726 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489B9DB27A7945B00713726 /* EmojiMemoryGame.swift */; };
 		0489B9DD27A7945B00713726 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489B9DB27A7945B00713726 /* EmojiMemoryGame.swift */; };
+		04F7DF862C3598E300A452E5 /* FlyingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7DF852C3598E300A452E5 /* FlyingNumber.swift */; };
+		04F7DF872C3598E300A452E5 /* FlyingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7DF852C3598E300A452E5 /* FlyingNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040A18662C338674007EFF6C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		040A18692C3388C0007EFF6C /* AspectVgrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVgrid.swift; sourceTree = "<group>"; };
+		040A186C2C338E49007EFF6C /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
 		0413EFE12B99612E00B0F2E5 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		041F20612C3431DA00FC0311 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 		046FCA7A279FB48500FE5776 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
 		046FCA7B279FB48500FE5776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		046FCA7C279FB48600FE5776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -31,6 +45,7 @@
 		046FCA89279FB48600FE5776 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		0489B9D827A7915300713726 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		0489B9DB27A7945B00713726 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		04F7DF852C3598E300A452E5 /* FlyingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +78,17 @@
 		046FCA79279FB48500FE5776 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				040A18692C3388C0007EFF6C /* AspectVgrid.swift */,
 				046FCA7A279FB48500FE5776 /* MemorizeApp.swift */,
 				046FCA7B279FB48500FE5776 /* ContentView.swift */,
+				040A18662C338674007EFF6C /* CardView.swift */,
 				0489B9D827A7915300713726 /* MemoryGame.swift */,
 				0489B9DB27A7945B00713726 /* EmojiMemoryGame.swift */,
 				0413EFE12B99612E00B0F2E5 /* Theme.swift */,
 				046FCA7C279FB48600FE5776 /* Assets.xcassets */,
+				040A186C2C338E49007EFF6C /* Pie.swift */,
+				041F20612C3431DA00FC0311 /* Cardify.swift */,
+				04F7DF852C3598E300A452E5 /* FlyingNumber.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -135,7 +155,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					046FCA80279FB48600FE5776 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -188,11 +208,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040A186A2C3388C0007EFF6C /* AspectVgrid.swift in Sources */,
 				0489B9D927A7915300713726 /* MemoryGame.swift in Sources */,
+				040A186D2C338E49007EFF6C /* Pie.swift in Sources */,
+				041F20622C3431DA00FC0311 /* Cardify.swift in Sources */,
 				046FCA8C279FB48600FE5776 /* ContentView.swift in Sources */,
 				0413EFE22B99612E00B0F2E5 /* Theme.swift in Sources */,
 				046FCA8A279FB48600FE5776 /* MemorizeApp.swift in Sources */,
+				040A18672C338674007EFF6C /* CardView.swift in Sources */,
 				0489B9DC27A7945B00713726 /* EmojiMemoryGame.swift in Sources */,
+				04F7DF862C3598E300A452E5 /* FlyingNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,11 +225,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040A186B2C3388C0007EFF6C /* AspectVgrid.swift in Sources */,
 				0489B9DA27A7915300713726 /* MemoryGame.swift in Sources */,
+				040A186E2C338E49007EFF6C /* Pie.swift in Sources */,
+				041F20632C3431DA00FC0311 /* Cardify.swift in Sources */,
 				046FCA8D279FB48600FE5776 /* ContentView.swift in Sources */,
 				0413EFE32B99612E00B0F2E5 /* Theme.swift in Sources */,
 				046FCA8B279FB48600FE5776 /* MemorizeApp.swift in Sources */,
+				040A18682C338674007EFF6C /* CardView.swift in Sources */,
 				0489B9DD27A7945B00713726 /* EmojiMemoryGame.swift in Sources */,
+				04F7DF872C3598E300A452E5 /* FlyingNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,9 +275,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -304,9 +336,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -393,6 +427,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = Q898WKNZ73;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -422,6 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = Q898WKNZ73;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
